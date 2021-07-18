@@ -1,6 +1,6 @@
 # Personal-Website
 OVERVIEW:
-This repository will work as the codebase for my personal portfolio and blog website. This will be hosted with the help of most probably Heroku website.
+This repository will work as the codebase for my personal portfolio and blog website. This will be hosted with the help of most probably Github pages.
 
 Technology:
 1. HTML
