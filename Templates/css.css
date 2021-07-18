@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10 px;
+    font-family: "Dosis", sans-serif;
+ }
+a{
+    text-decoration : none;
+
+}
+.container{
+    min-height: 100vh;
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#introduction{
+    background-image: url(../Templates/aeroplane.jpg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+    
+}
+#introdution ::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    opacity: .6;
+    z-index: -1;
+}
+#introduction h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: wheat;
+}
+#introduction .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    color:tomato;
+    background-color: transparent;
+    border: 2px solid rgb(236, 213, 5);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition:  .3s ease ;
+    transition-property: background-color, color;
+
+}
+#introduction .btn:hover {
+    color: wheat;
+    background-color: tomato;
+}
