@@ -1,8 +1,9 @@
 # Personal-Website
 OVERVIEW:
 This repository will work as the codebase for my personal portfolio and blog website. This will be hosted with the help of most probably Github pages.
+Link to the website: 
 
-Technology:
+Tech Used:
 1. HTML
 2. CSS
 3. JavaScript
